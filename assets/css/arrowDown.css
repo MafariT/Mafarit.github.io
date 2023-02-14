@@ -1,0 +1,21 @@
+
+  
+  .arrow-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    animation: arrowDown 2s infinite;
+  }
+  
+  @keyframes arrowDown {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(20px); }
+    100% { transform: translateY(0); }
+  }
+  
+  svg {
+    width: 100x;
+    height: 100px;
+    fill: #fff;
+  }
